@@ -1,0 +1,25 @@
+{
+  "name": "opencode-ui-automation-demo",
+  "version": "1.0.0",
+  "description": "前端 UI 自动化测试 Demo - 使用 Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "ui-testing",
+    "e2e"
+  ],
+  "license": "MIT"
+}
